@@ -1,0 +1,68 @@
+const BudgetData = [
+  {
+    id: "entertainment",
+    name: "Entertainment",
+    value: 50000,
+    goal: 100000,
+    color: "#17C3B2",
+    frequency: "monthly",
+  },
+  {
+    id: "bills",
+    name: "Bills",
+    value: 75000,
+    goal: 150000,
+    color: "#72C3FC",
+    frequency: "monthly",
+  },
+  {
+    id: "personal-care",
+    name: "Personal Care",
+    value: 60000,
+    goal: 120000,
+    color: "#FFB703",
+    frequency: "monthly",
+  },
+  {
+    id: "dining-out",
+    name: "Dining Out",
+    value: 55000,
+    goal: 120000,
+    color: "#FB8500",
+    frequency: "weekly",
+  },
+  {
+    id: "groceries",
+    name: "Groceries",
+    value: 80000,
+    goal: 200000,
+    color: "#FF595E",
+    frequency: "monthly",
+  },
+  {
+    id: "transportation",
+    name: "Transportation",
+    value: 70000,
+    goal: 180000,
+    color: "#6A0572",
+    frequency: "monthly",
+  },
+  {
+    id: "savings",
+    name: "Savings",
+    value: 100000,
+    goal: 500000,
+    color: "#2EC4B6",
+    frequency: "yearly",
+  },
+  {
+    id: "medical",
+    name: "Medical",
+    value: 65000,
+    goal: 200000,
+    color: "#FF006E",
+    frequency: "yearly",
+  },
+];
+
+export default BudgetData;
