@@ -52,7 +52,10 @@ const SideBar = ({ isOpen, openMenu, closeMenu }) => {
               <div
                 key={id}
                 className="flex items-center space-x-5 py-2 mb-3 font-semibold text-base hover:bg-white hover:text-black hover:p-3 rounded transition-all duration-100">
-                <Link to={link ?? "#"} className="flex items-center space-x-2">
+                <Link
+                  to={link ?? "#"}
+                  className="flex items-center space-x-2"
+                  onClick={closeMenu}>
                   <div>{icon}</div>
                   <h1>{page}</h1>
                 </Link>
