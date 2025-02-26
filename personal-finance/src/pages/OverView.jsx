@@ -22,7 +22,7 @@ const OverView = () => {
         {cardData.map(({ id, title, description }) => (
           <Card
             key={id}
-            className="w-full min-w-[260px] max-w-[320px] h-auto"
+            className="w-full sm:min-w-[300px] md:min-w-[340px] lg:max-w-[380px] xl:max-w-[420px] h-auto"
             title={title}
             description={description}
           />

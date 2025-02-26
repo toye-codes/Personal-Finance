@@ -6,14 +6,14 @@ const TransactionCard = ({ transaction }) => {
   const isCredit = amount > 0;
 
   return (
-    <div className="flex items-center justify-between bg-white shadow-lg rounded-xl px-5 py-4 hover:shadow-xl transition-all duration-300">
+    <div className="flex items-center justify-between bg-white rounded-xl px-5 py-4 hover:shadow-xl transition-all duration-300">
       {/* Left Side: Avatar & Name */}
-      <div className="flex items-center space-x-4">
+      <div className="flex  items-center space-x-4">
         {avatar ? (
           <img
             src={avatar}
             alt={name}
-            className="w-14 h-14 rounded-full object-cover border border-gray-200"
+            className="w-24 h-24 rounded-full object-cover border border-gray-200"
           />
         ) : (
           <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gray-200">
@@ -27,7 +27,7 @@ const TransactionCard = ({ transaction }) => {
       </div>
 
       {/* Right Side: Amount & Icon */}
-      <div className="flex items-center space-x-2">
+      <div className="flex text-base md:gap-0 items-center space-x-2">
         {isCredit ? (
           <ArrowUpCircle className="text-green-500 w-6 h-6" />
         ) : (

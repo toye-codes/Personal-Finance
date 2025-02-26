@@ -35,9 +35,9 @@ const TransactionForm = () => {
   };
 
   return (
-    <div className="w-full max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold text-center mb-6 flex items-center justify-center gap-2 bg-blue-100 text-blue-800 py-3 rounded-lg shadow-md">
-        <CreditCard className="w-6 h-6 text-blue-600" /> Make a Transaction
+    <div className="w-full max-w-lg mx-auto bg-white">
+      <h2 className="w-full text-2xl font-bold text-center mb-6 flex items-center justify-center gap-2 bg-blue-100 text-blue-800 py-3 px-2 rounded-lg">
+        <CreditCard className="w-8 h-8 text-blue-600" /> Make a Transaction
       </h2>
 
       <form onSubmit={handleSubmit}>
@@ -50,7 +50,7 @@ const TransactionForm = () => {
           required
         />
         <input
-          type="number"
+          type="text"
           name="amount"
           placeholder="Amount"
           className="w-full p-3 border rounded mb-3"

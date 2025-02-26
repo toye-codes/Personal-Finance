@@ -15,9 +15,9 @@ import { Outlet } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />, // App serves as the layout
+    element: <App />, 
     children: [
-      { index: true, element: <OverView /> }, // Default page when visiting "/"
+      { index: true, element: <OverView /> },
       { path: "overview", element: <OverView /> },
       { path: "transactions", element: <Transaction /> },
       { path: "budget", element: <Budget /> },

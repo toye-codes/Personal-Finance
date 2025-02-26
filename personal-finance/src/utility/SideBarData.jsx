@@ -28,13 +28,13 @@ const SideBarData = [
   {
     id: 4,
     page: "Savings",
-    link: "/savings",
+    link: "",
     icon: <ChartBarIcon className="w-5 h-5 text-teal-600" />,
   },
   {
     id: 5,
     page: "Bills",
-    link: "/bills",
+    link: "",
     icon: <ReceiptPercentIcon className="w-5 h-5 text-red-600" />,
   },
 ];

@@ -3,15 +3,15 @@ import BudgetCard from "./BudgetCard";
 import BudgetData from "../../utility/BudgetData";
 
 const BudgetList = () => {
-  const [filter, setFilter] = useState("Monthly"); // Default filter
+  const [filter, setFilter] = useState("Monthly"); 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 2;
 
-  // Function to filter budgets based on selected option (Placeholder logic)
+
   const filteredBudgets = BudgetData.filter((budget) => {
     if (filter === "Monthly") return budget;
-    if (filter === "Yearly") return budget; // Implement logic later
-    if (filter === "Weekly") return budget; // Implement logic later
+    if (filter === "Yearly") return budget; 
+    if (filter === "Weekly") return budget; 
   });
 
   // Pagination logic
@@ -24,7 +24,7 @@ const BudgetList = () => {
   const totalPages = Math.ceil(filteredBudgets.length / itemsPerPage);
 
   return (
-    <div className="p-4 space-y-4">
+    <div className="p-4 space-y-4 shadow-lg">
       {/* Pagination Controls */}
       <div className="flex justify-between items-center">
         <div>

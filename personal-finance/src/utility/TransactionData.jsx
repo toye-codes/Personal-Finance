@@ -6,7 +6,7 @@ const transactionData = [
     amount: 750000,
     date: "2024-08-18",
     type: "income",
-    avatar: "/images/emma.jpg",
+    avatar: null,
   },
   {
     id: "txn-002",
@@ -15,7 +15,7 @@ const transactionData = [
     amount: -55000,
     date: "2024-08-18",
     type: "expense",
-    avatar: "/images/bistro.jpg",
+    avatar: null,
   },
   {
     id: "txn-003",
@@ -24,7 +24,7 @@ const transactionData = [
     amount: -42000,
     date: "2024-08-18",
     type: "expense",
-    avatar: "/images/daniel.jpg",
+    avatar: null,
   },
   {
     id: "txn-004",
@@ -33,7 +33,7 @@ const transactionData = [
     amount: 12000.0,
     date: "2024-08-17",
     type: "income",
-    avatar: "/images/sun.jpg",
+    avatar: null,
   },
   {
     id: "txn-005",
@@ -42,7 +42,7 @@ const transactionData = [
     amount: -10000.0,
     date: "2024-08-17",
     type: "expense",
-    avatar: "/images/urban.jpg",
+    avatar: null,
   },
   {
     id: "txn-006",
@@ -51,7 +51,7 @@ const transactionData = [
     amount: 300000.0,
     date: "2024-08-16",
     type: "income",
-    avatar: "/images/freelance.jpg",
+    avatar: null,
   },
   {
     id: "txn-007",
@@ -60,7 +60,7 @@ const transactionData = [
     amount: -60000.0,
     date: "2024-08-15",
     type: "expense",
-    avatar: "/images/gym.jpg",
+    avatar: null,
   },
   {
     id: "txn-008",
@@ -69,7 +69,7 @@ const transactionData = [
     amount: -150000.0,
     date: "2024-08-14",
     type: "expense",
-    avatar: "/images/course.jpg",
+    avatar: null,
   },
 ];
 
